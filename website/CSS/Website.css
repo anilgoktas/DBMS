@@ -1,0 +1,110 @@
+Body
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+Img
+{
+	border: none;
+}
+
+A
+{
+	color: #8D0D19;
+	text-decoration:none;
+}
+
+A:Hover
+{
+	text-decoration:underline;
+}
+
+#Header
+{
+	text-align: center;
+	color: #333333;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+}
+
+#Header H1
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+#Page
+{
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #CCC;
+}
+
+#LeftMenu
+{
+	float:left;
+	width:140px;
+	padding:30px;
+}
+
+#Content
+{
+	float:right;
+	width:700px;
+	background-color: #EBEBEB;
+	padding:30px;
+}
+
+#Footer
+{
+	clear:both;
+	text-align: center;
+	color: #333333;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #333333;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+}
+
+/* Navigation */
+#Content ul
+{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;	
+}
+
+#Content li a
+{
+	display:block;
+	padding:2px 0px 2px 0px;	
+}
+
+#LeftMenu ul
+{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;	
+}
+
+#LeftMenu li a
+{
+	display:block;
+	padding:2px 0px 2px 0px;	
+}
+
+.ActiveMenu
+{
+	font-weight:bold;	
+}
