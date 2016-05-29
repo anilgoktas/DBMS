@@ -1,0 +1,18 @@
+use_frameworks!
+
+target 'exp3' do
+
+pod 'AsyncSwift'
+pod 'Alamofire', '~> 3.0'
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+
+end
+
+target 'exp3Tests' do
+
+end
+
+target 'exp3UITests' do
+
+end
+
