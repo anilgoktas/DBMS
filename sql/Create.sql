@@ -15,6 +15,13 @@ DROP TABLE GENRE;
 DROP TABLE PUBLISHER;
 DROP TABLE SONG;
 DROP TABLE WEBUSER;
+
+DROP SEQUENCE artistSequence;
+DROP SEQUENCE genreSequence;
+DROP SEQUENCE publisherSequence;
+DROP SEQUENCE songSequence;
+DROP SEQUENCE WebUserSequence;
+DROP SEQUENCE albumSequence;
 */
 
 /* - Create tables */
