@@ -1,5 +1,5 @@
 <?php
-	$connection = oci_connect('b21027037', '21027037', 'test.czyephlunywv.eu-west-1.rds.amazonaws.com:1521/ORCL');
+	$connection = oci_connect('C##b21027037', '21027037', 'dbs.cs.hacettepe.edu.tr:1521/dbs');
 	
 	session_start();
 ?>
