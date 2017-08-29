@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3E7C9C42387846FB9C5686 /* Pods_exp3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE83C754E11F2A9DCB3128D /* Pods_exp3.framework */; };
+		2019B0461CBBC3A9009F5AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019B0451CBBC3A9009F5AAC /* AppDelegate.swift */; };
+		2019B0481CBBC3A9009F5AAC /* EntitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019B0471CBBC3A9009F5AAC /* EntitiesViewController.swift */; };
+		2019B04A1CBBC3A9009F5AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2019B0491CBBC3A9009F5AAC /* Assets.xcassets */; };
+		2019B04D1CBBC3A9009F5AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2019B04B1CBBC3A9009F5AAC /* Main.storyboard */; };
+		205310F01CBFBA7B008B7382 /* EntityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205310EF1CBFBA7B008B7382 /* EntityViewController.swift */; };
+		205310F21CC14D8D008B7382 /* EditRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205310F11CC14D8D008B7382 /* EditRecordViewController.swift */; };
+		20562B8E1EAC68B6003A1039 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20562B8D1EAC68B6003A1039 /* LoginViewController.swift */; };
+		20834A691EAC3F0000AE5DA9 /* NewRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20834A681EAC3F0000AE5DA9 /* NewRecordViewController.swift */; };
+		208782D61EAC06200086646F /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208782D51EAC06200086646F /* Property.swift */; };
+		20A164F41EABD40300233C34 /* cocilib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E35D271EABD0D30086F743 /* cocilib.framework */; };
+		20A164F51EABD40300233C34 /* cocilib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20E35D271EABD0D30086F743 /* cocilib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20A164FA1EABE00300233C34 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A164F91EABE00300233C34 /* Configurable.swift */; };
+		20A164FC1EABE2E400233C34 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A164FB1EABE2E400233C34 /* Entity.swift */; };
+		20A164FE1EABE2EC00233C34 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A164FD1EABE2EC00233C34 /* Record.swift */; };
+		20C263D31EAC413D00256AB7 /* PropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C263D21EAC413D00256AB7 /* PropertyView.swift */; };
+		20C263D51EAC414600256AB7 /* PropertyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C263D41EAC414600256AB7 /* PropertyView.xib */; };
+		20E35D2B1EABD0DC0086F743 /* SwiftOracle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E35D291EABD0D30086F743 /* SwiftOracle.framework */; };
+		20E35D2C1EABD0DC0086F743 /* SwiftOracle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20E35D291EABD0D30086F743 /* SwiftOracle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20E5CCA91CBBF5ED00A98648 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5CCA81CBBF5ED00A98648 /* Database.swift */; };
+		20E5CCAF1CBC031A00A98648 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5CCAE1CBC031A00A98648 /* Global.swift */; };
+		20FA322D1EAEB45D004B8C48 /* NewRecordViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FA322C1EAEB45D004B8C48 /* NewRecordViewDelegate.swift */; };
+		20FA322F1EAEB57C004B8C48 /* EditRecordViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FA322E1EAEB57C004B8C48 /* EditRecordViewDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20A164F61EABD40300233C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E35D211EABD0D30086F743 /* SwiftOracle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_22;
+			remoteInfo = cocilib;
+		};
+		20E35D261EABD0D30086F743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E35D211EABD0D30086F743 /* SwiftOracle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_20;
+			remoteInfo = cocilib;
+		};
+		20E35D281EABD0D30086F743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E35D211EABD0D30086F743 /* SwiftOracle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_21;
+			remoteInfo = SwiftOracle;
+		};
+		20E35D2D1EABD0DC0086F743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E35D211EABD0D30086F743 /* SwiftOracle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_30;
+			remoteInfo = SwiftOracle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20E35D2F1EABD0DC0086F743 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				20A164F51EABD40300233C34 /* cocilib.framework in Embed Frameworks */,
+				20E35D2C1EABD0DC0086F743 /* SwiftOracle.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17A33543A51AE03246E104DD /* Pods-exp3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exp3UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-exp3UITests/Pods-exp3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2019B0421CBBC3A9009F5AAC /* exp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2019B0451CBBC3A9009F5AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2019B0471CBBC3A9009F5AAC /* EntitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitiesViewController.swift; sourceTree = "<group>"; };
+		2019B0491CBBC3A9009F5AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2019B04C1CBBC3A9009F5AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2019B04E1CBBC3A9009F5AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205310EF1CBFBA7B008B7382 /* EntityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityViewController.swift; sourceTree = "<group>"; };
+		205310F11CC14D8D008B7382 /* EditRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditRecordViewController.swift; sourceTree = "<group>"; };
+		20562B8D1EAC68B6003A1039 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		20834A681EAC3F0000AE5DA9 /* NewRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRecordViewController.swift; sourceTree = "<group>"; };
+		208782D51EAC06200086646F /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		20A164F91EABE00300233C34 /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		20A164FB1EABE2E400233C34 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		20A164FD1EABE2EC00233C34 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		20C263D21EAC413D00256AB7 /* PropertyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyView.swift; sourceTree = "<group>"; };
+		20C263D41EAC414600256AB7 /* PropertyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyView.xib; sourceTree = "<group>"; };
+		20E35D211EABD0D30086F743 /* SwiftOracle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftOracle.xcodeproj; path = "SwiftOracle-master/SwiftOracle.xcodeproj"; sourceTree = "<group>"; };
+		20E5CCA51CBBF1FF00A98648 /* exp3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "exp3-Bridging-Header.h"; sourceTree = "<group>"; };
+		20E5CCA81CBBF5ED00A98648 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		20E5CCAE1CBC031A00A98648 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		20FA322C1EAEB45D004B8C48 /* NewRecordViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRecordViewDelegate.swift; sourceTree = "<group>"; };
+		20FA322E1EAEB57C004B8C48 /* EditRecordViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditRecordViewDelegate.swift; sourceTree = "<group>"; };
+		34035A43D90EA1DBD5C8A785 /* Pods-exp3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exp3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-exp3/Pods-exp3.debug.xcconfig"; sourceTree = "<group>"; };
+		49CC56B58D2A830049098D4A /* Pods-exp3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exp3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-exp3Tests/Pods-exp3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4A6141E4F63BC495453F48D1 /* Pods-exp3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exp3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-exp3UITests/Pods-exp3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8233C270A7711CFF5E2F7646 /* Pods-exp3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exp3.release.xcconfig"; path = "Pods/Target Support Files/Pods-exp3/Pods-exp3.release.xcconfig"; sourceTree = "<group>"; };
+		85850A2C4A413DD3949A6FAE /* Pods-exp3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exp3Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-exp3Tests/Pods-exp3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDE83C754E11F2A9DCB3128D /* Pods_exp3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exp3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EDEFD5D71055AC9D926ED8 /* Pods_exp3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exp3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF62DB7C2DFD63D5DEF6E7D3 /* Pods_exp3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exp3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2019B03F1CBBC3A9009F5AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E35D2B1EABD0DC0086F743 /* SwiftOracle.framework in Frameworks */,
+				20A164F41EABD40300233C34 /* cocilib.framework in Frameworks */,
+				1B3E7C9C42387846FB9C5686 /* Pods_exp3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2019B0391CBBC3A9009F5AAC = {
+			isa = PBXGroup;
+			children = (
+				2019B0441CBBC3A9009F5AAC /* exp3 */,
+				2019B0431CBBC3A9009F5AAC /* Products */,
+				EEA19C5594787305BF9302DD /* Pods */,
+				CC17E025D5C4B192F06A4FF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2019B0431CBBC3A9009F5AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2019B0421CBBC3A9009F5AAC /* exp3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2019B0441CBBC3A9009F5AAC /* exp3 */ = {
+			isa = PBXGroup;
+			children = (
+				2019B0451CBBC3A9009F5AAC /* AppDelegate.swift */,
+				2019B04B1CBBC3A9009F5AAC /* Main.storyboard */,
+				20E5CC831CBBEE7200A98648 /* Controller */,
+				20E5CC851CBBEE8100A98648 /* View */,
+				20E5CC841CBBEE7700A98648 /* Model */,
+				20E5CCA41CBBF1F300A98648 /* Supporting Files */,
+				208782D71EAC0B700086646F /* Local Framework */,
+			);
+			path = exp3;
+			sourceTree = "<group>";
+		};
+		208782D71EAC0B700086646F /* Local Framework */ = {
+			isa = PBXGroup;
+			children = (
+				20E5CCAE1CBC031A00A98648 /* Global.swift */,
+				20A164F91EABE00300233C34 /* Configurable.swift */,
+			);
+			name = "Local Framework";
+			sourceTree = "<group>";
+		};
+		20E35D221EABD0D30086F743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20E35D271EABD0D30086F743 /* cocilib.framework */,
+				20E35D291EABD0D30086F743 /* SwiftOracle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20E5CC831CBBEE7200A98648 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20562B8D1EAC68B6003A1039 /* LoginViewController.swift */,
+				2019B0471CBBC3A9009F5AAC /* EntitiesViewController.swift */,
+				205310EF1CBFBA7B008B7382 /* EntityViewController.swift */,
+				20834A681EAC3F0000AE5DA9 /* NewRecordViewController.swift */,
+				205310F11CC14D8D008B7382 /* EditRecordViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		20E5CC841CBBEE7700A98648 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20E5CCA81CBBF5ED00A98648 /* Database.swift */,
+				20A164FB1EABE2E400233C34 /* Entity.swift */,
+				20A164FD1EABE2EC00233C34 /* Record.swift */,
+				208782D51EAC06200086646F /* Property.swift */,
+				20FA322C1EAEB45D004B8C48 /* NewRecordViewDelegate.swift */,
+				20FA322E1EAEB57C004B8C48 /* EditRecordViewDelegate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		20E5CC851CBBEE8100A98648 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2019B0491CBBC3A9009F5AAC /* Assets.xcassets */,
+				20FA322B1EAEA709004B8C48 /* PropertyView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		20E5CCA41CBBF1F300A98648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2019B04E1CBBC3A9009F5AAC /* Info.plist */,
+				20E5CCA51CBBF1FF00A98648 /* exp3-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20FA322B1EAEA709004B8C48 /* PropertyView */ = {
+			isa = PBXGroup;
+			children = (
+				20C263D21EAC413D00256AB7 /* PropertyView.swift */,
+				20C263D41EAC414600256AB7 /* PropertyView.xib */,
+			);
+			name = PropertyView;
+			sourceTree = "<group>";
+		};
+		CC17E025D5C4B192F06A4FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20E35D211EABD0D30086F743 /* SwiftOracle.xcodeproj */,
+				BDE83C754E11F2A9DCB3128D /* Pods_exp3.framework */,
+				EF62DB7C2DFD63D5DEF6E7D3 /* Pods_exp3Tests.framework */,
+				E4EDEFD5D71055AC9D926ED8 /* Pods_exp3UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEA19C5594787305BF9302DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34035A43D90EA1DBD5C8A785 /* Pods-exp3.debug.xcconfig */,
+				8233C270A7711CFF5E2F7646 /* Pods-exp3.release.xcconfig */,
+				85850A2C4A413DD3949A6FAE /* Pods-exp3Tests.debug.xcconfig */,
+				49CC56B58D2A830049098D4A /* Pods-exp3Tests.release.xcconfig */,
+				17A33543A51AE03246E104DD /* Pods-exp3UITests.debug.xcconfig */,
+				4A6141E4F63BC495453F48D1 /* Pods-exp3UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2019B0411CBBC3A9009F5AAC /* exp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2019B0671CBBC3A9009F5AAC /* Build configuration list for PBXNativeTarget "exp3" */;
+			buildPhases = (
+				2D1B2E7F1E503BBDAE6B06EB /* [CP] Check Pods Manifest.lock */,
+				2019B03E1CBBC3A9009F5AAC /* Sources */,
+				2019B03F1CBBC3A9009F5AAC /* Frameworks */,
+				2019B0401CBBC3A9009F5AAC /* Resources */,
+				7901AE8A7C52B556117B2E74 /* [CP] Embed Pods Frameworks */,
+				FC3BB52EC3D594A5BF67D3DA /* [CP] Copy Pods Resources */,
+				20E35D2F1EABD0DC0086F743 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E35D2E1EABD0DC0086F743 /* PBXTargetDependency */,
+				20A164F71EABD40300233C34 /* PBXTargetDependency */,
+			);
+			name = exp3;
+			productName = exp3;
+			productReference = 2019B0421CBBC3A9009F5AAC /* exp3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2019B03A1CBBC3A9009F5AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Anıl Göktaş";
+				TargetAttributes = {
+					2019B0411CBBC3A9009F5AAC = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2019B03D1CBBC3A9009F5AAC /* Build configuration list for PBXProject "exp3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2019B0391CBBC3A9009F5AAC;
+			productRefGroup = 2019B0431CBBC3A9009F5AAC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 20E35D221EABD0D30086F743 /* Products */;
+					ProjectRef = 20E35D211EABD0D30086F743 /* SwiftOracle.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2019B0411CBBC3A9009F5AAC /* exp3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		20E35D271EABD0D30086F743 /* cocilib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = cocilib.framework;
+			remoteRef = 20E35D261EABD0D30086F743 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		20E35D291EABD0D30086F743 /* SwiftOracle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftOracle.framework;
+			remoteRef = 20E35D281EABD0D30086F743 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2019B0401CBBC3A9009F5AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C263D51EAC414600256AB7 /* PropertyView.xib in Resources */,
+				2019B04A1CBBC3A9009F5AAC /* Assets.xcassets in Resources */,
+				2019B04D1CBBC3A9009F5AAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D1B2E7F1E503BBDAE6B06EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7901AE8A7C52B556117B2E74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-exp3/Pods-exp3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3BB52EC3D594A5BF67D3DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-exp3/Pods-exp3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2019B03E1CBBC3A9009F5AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20834A691EAC3F0000AE5DA9 /* NewRecordViewController.swift in Sources */,
+				208782D61EAC06200086646F /* Property.swift in Sources */,
+				20A164FA1EABE00300233C34 /* Configurable.swift in Sources */,
+				2019B0481CBBC3A9009F5AAC /* EntitiesViewController.swift in Sources */,
+				20A164FC1EABE2E400233C34 /* Entity.swift in Sources */,
+				20FA322D1EAEB45D004B8C48 /* NewRecordViewDelegate.swift in Sources */,
+				205310F21CC14D8D008B7382 /* EditRecordViewController.swift in Sources */,
+				2019B0461CBBC3A9009F5AAC /* AppDelegate.swift in Sources */,
+				20A164FE1EABE2EC00233C34 /* Record.swift in Sources */,
+				205310F01CBFBA7B008B7382 /* EntityViewController.swift in Sources */,
+				20FA322F1EAEB57C004B8C48 /* EditRecordViewDelegate.swift in Sources */,
+				20C263D31EAC413D00256AB7 /* PropertyView.swift in Sources */,
+				20E5CCA91CBBF5ED00A98648 /* Database.swift in Sources */,
+				20562B8E1EAC68B6003A1039 /* LoginViewController.swift in Sources */,
+				20E5CCAF1CBC031A00A98648 /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20A164F71EABD40300233C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cocilib;
+			targetProxy = 20A164F61EABD40300233C34 /* PBXContainerItemProxy */;
+		};
+		20E35D2E1EABD0DC0086F743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftOracle;
+			targetProxy = 20E35D2D1EABD0DC0086F743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2019B04B1CBBC3A9009F5AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2019B04C1CBBC3A9009F5AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2019B0651CBBC3A9009F5AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2019B0661CBBC3A9009F5AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2019B0681CBBC3A9009F5AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34035A43D90EA1DBD5C8A785 /* Pods-exp3.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = exp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anilgoktas.exp3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/**";
+				SWIFT_OBJC_BRIDGING_HEADER = "exp3/exp3-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2019B0691CBBC3A9009F5AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8233C270A7711CFF5E2F7646 /* Pods-exp3.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = exp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anilgoktas.exp3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/**";
+				SWIFT_OBJC_BRIDGING_HEADER = "exp3/exp3-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2019B03D1CBBC3A9009F5AAC /* Build configuration list for PBXProject "exp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2019B0651CBBC3A9009F5AAC /* Debug */,
+				2019B0661CBBC3A9009F5AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2019B0671CBBC3A9009F5AAC /* Build configuration list for PBXNativeTarget "exp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2019B0681CBBC3A9009F5AAC /* Debug */,
+				2019B0691CBBC3A9009F5AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2019B03A1CBBC3A9009F5AAC /* Project object */;
+}

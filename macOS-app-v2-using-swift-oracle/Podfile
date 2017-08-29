@@ -1,0 +1,10 @@
+platform :osx, '10.12'
+
+use_frameworks!
+swift_version = "3.0"
+
+target 'exp3' do
+
+
+end
+
